@@ -53,8 +53,8 @@ class TestAnimatedVertices(Base):
         }
         """
 
-        textureA = OpenGLUtils.initializeTexture("images/color-grid.png")
         textureB = OpenGLUtils.initializeTexture("images/grid.jpg")
+        textureA = OpenGLUtils.initializeTexture("images/color-grid.png")
         
         morphUniforms = [
             [ "sampler2D", "imageA", textureA ],
