@@ -5,6 +5,13 @@ from OpenGL.GL import *
 class Uniform(object):
 
     def __init__(self, type, name, value):
+        """Initialize a new Uniform object.
+
+        Args:
+            * type (str): The type of uniform variable. Must be one of "float", "vec2", "vec3", "vec4", "mat4", "bool", or "sampler2D".
+            * name (str): The name of the corresponding variable in the shader program.
+            * value: The value to be sent to the shader. For numeric data, pass a float, tuple, or list. For booleans, pass 0 for False or 1 for True. For sampler2D, pass the buffer ID where the texture is stored.
+        """
         
         # type: float | vec2 | vec3 | vec4 | mat4 | bool | sampler2D
         self.type = type
@@ -28,6 +35,11 @@ class Uniform(object):
 
 
     def initializeLocation(self, shaderProgramID):
+        """Initialize the location of the uniform variable for a given shader program.
+
+        Args:
+            shaderProgramID (int): The ID of the shader program to initialize the location for.
+        """
         location = glGetUniformLocation(shaderProgramID, self.name)
         self.locationTable[shaderProgramID] = location
         
@@ -37,7 +49,11 @@ class Uniform(object):
 
     # transmit currently stored value to corresponding variable in currently active shader
     def update(self, shaderProgramID):
+        """Transmit the currently stored value to the corresponding variable in the currently active shader.
 
+        Args:
+            shaderProgramID (int): The ID of the shader program to update the uniform variable for.
+        """
         if shaderProgramID not in self.locationTable:
             self.initializeLocation(shaderProgramID)
         
@@ -96,7 +112,11 @@ class UniformList(object):
     # add uniform to collection.
     #   store under uniform's variable name by default,
     #   but can override by setting indexName (useful for Light objects)
-    def addUniform(self, uniform, indexName=None):
+    def addUniform(self, uniform:Uniform, indexName:str=None):
+        
+        if not isinstance(uniform, Uniform):
+            raise TypeError("Uniform object expected")
+        
         if indexName is None:
             indexName = uniform.name
         self.data[indexName] = uniform
