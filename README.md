@@ -82,3 +82,6 @@ pipenv shell
 cd three.py
 python TestAnimatedDayNight.py
 ```
+
+# Three.py structure
+![entities.svg](docs/imgs/entities.svg)

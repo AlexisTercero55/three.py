@@ -16,12 +16,13 @@ class Renderer(object):
         # (consistent with the "right-hand rule" for vector cross product)
         glFrontFace(GL_CCW)
         
-        glEnable(GL_BLEND)
+        glEnable(GL_BLEND)# enables blending of pixel colors
         
         # needed for antialiasing; also need to configure in window settings
         glEnable( GL_MULTISAMPLE )        
 
         # allow setting of point size from vertex shader; needed for point attenuation
+        # enable the use of point sprites in rendering.
         glEnable(GL_VERTEX_PROGRAM_POINT_SIZE) 
         glEnable( GL_POINT_SPRITE )
 

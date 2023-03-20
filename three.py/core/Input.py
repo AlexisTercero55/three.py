@@ -16,6 +16,24 @@ class Input(object):
         self.windowHeight       = None
         
     def update(self):
+        """
+        Processes the Pygame events and updates the game input variables.
+
+        This method should be called once per frame to update the input status of the game. It processes the Pygame events 
+        and updates the input variables that can be used to control the game logic. The input variables that can be updated 
+        include the following:
+
+            - keyDownList: A list of the keys that were pressed down since the last update.
+            - keyUpList: A list of the keys that were released since the last update.
+            - mouseButtonDown: A boolean indicating whether the mouse button was pressed down since the last update.
+            - mouseButtonUp: A boolean indicating whether the mouse button was released since the last update.
+            - windowResize: A boolean indicating whether the game window was resized since the last update.
+            - windowWidth: The width of the game window, in pixels.
+            - windowHeight: The height of the game window, in pixels.
+
+        Returns:
+            None
+        """
         self.keyDownList = []
         self.keyUpList   = []
         self.mouseButtonDown = False
