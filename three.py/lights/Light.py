@@ -1,6 +1,21 @@
 from core import Object3D, Uniform, UniformList
 
 class Light(Object3D):
+    '''
+    # Light  
+
+    `Object3D -> Light`
+
+    Base of Light objects as Ambient, Point, Directional, Spot, Area, ...
+
+    Init uniforms for lighting:
+
+    * Type
+    * Color
+    * Position
+    * Direction
+    
+    '''
 
     # global variable used to track number of lights and create unique names
     lightCount = 0
