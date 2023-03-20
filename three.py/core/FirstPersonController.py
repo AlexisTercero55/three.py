@@ -4,6 +4,22 @@ from math import sin, cos
 from mathutils import Matrix
 
 class FirstPersonController(object):
+    '''
+    # customizable key mappings
+    standard controls (WASDRF, QETG)     
+    ```python
+        self.KEY_MOVE_FORWARDS  = pygame.K_w
+        self.KEY_MOVE_BACKWARDS = pygame.K_s
+        self.KEY_MOVE_LEFT      = pygame.K_a
+        self.KEY_MOVE_RIGHT     = pygame.K_d
+        self.KEY_MOVE_UP        = pygame.K_r
+        self.KEY_MOVE_DOWN      = pygame.K_f
+        self.KEY_TURN_LEFT      = pygame.K_q
+        self.KEY_TURN_RIGHT     = pygame.K_e
+        self.KEY_LOOK_UP        = pygame.K_t
+        self.KEY_LOOK_DOWN      = pygame.K_g
+    ```
+    '''
 
     def __init__(self, input, target):
         
@@ -13,7 +29,7 @@ class FirstPersonController(object):
         self.target = target
         
         # forward vector stays level with horizontal plane
-        self.forward = np.array( [0, 0, -1] )
+        self.forward = np.array( [0, 0, -1] )# !why negative direction?
         # up vector is constant
         self.up = np.array( [0,1,0] )
         # recalculate right vector whenever forward vector changes
