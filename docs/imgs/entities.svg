@@ -26,19 +26,18 @@
      showgrid="false"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:zoom="2.8771876"
-     inkscape:cx="178.11448"
-     inkscape:cy="238.66548"
-     inkscape:window-width="1920"
+     inkscape:zoom="2.0344789"
+     inkscape:cx="323.33263"
+     inkscape:cy="350.29988"
+     inkscape:window-width="960"
      inkscape:window-height="1012"
      inkscape:window-x="0"
      inkscape:window-y="0"
-     inkscape:window-maximized="1"
+     inkscape:window-maximized="0"
      inkscape:current-layer="layer1"
      units="px"
      inkscape:snap-grids="true"
-     inkscape:snap-global="true"
-     inkscape:rotation="-1" />
+     inkscape:snap-global="true" />
   <defs
      id="defs2">
     <marker
@@ -280,109 +279,109 @@
     <ellipse
        style="fill:none;fill-rule:evenodd;stroke:#355d71;stroke-width:0.804391;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path31"
-       cx="59.35957"
-       cy="61.71418"
+       cx="68.479164"
+       cy="36.505901"
        rx="10.282956"
        ry="12.494746" />
     <text
        xml:space="preserve"
        style="font-size:2.72072px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;fill:#355d71;fill-opacity:1;stroke-width:0.204054"
-       x="52.884445"
-       y="57.538784"
+       x="62.00404"
+       y="32.330505"
        id="text3026"><tspan
          sodipodi:role="line"
          id="tspan3024"
          style="fill:#355d71;fill-opacity:1;stroke-width:0.204054"
-         x="52.884445"
-         y="57.538784">Object3D</tspan></text>
+         x="62.00404"
+         y="32.330505">Object3D</tspan></text>
     <ellipse
        style="fill:none;stroke:#355d71;stroke-width:0.771228;stroke-opacity:1"
        id="path5034"
-       cx="58.619308"
-       cy="97.420387"
+       cx="69.607796"
+       cy="64.950752"
        rx="10.186175"
        ry="11.10381" />
     <text
        xml:space="preserve"
        style="font-size:2.72072px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;fill:#355d71;fill-opacity:1;stroke-width:0.204054"
-       x="54.933826"
-       y="92.588287"
+       x="65.92231"
+       y="60.118649"
        id="text10244"><tspan
          sodipodi:role="line"
          id="tspan10242"
          style="fill:#355d71;fill-opacity:1;stroke-width:0.204054"
-         x="54.933826"
-         y="92.588287">Base</tspan></text>
+         x="65.92231"
+         y="60.118649">Base</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:2.17658px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;fill:#355d71;fill-opacity:1;stroke-width:0.204054"
-       x="51.096249"
-       y="97.439743"
+       x="62.084732"
+       y="64.970108"
        id="text15365"><tspan
          sodipodi:role="line"
          id="tspan15363"
          style="font-size:2.17658px;fill:#355d71;fill-opacity:1;stroke-width:0.204054"
-         x="51.096249"
-         y="97.439743">PyGame app</tspan><tspan
+         x="62.084732"
+         y="64.970108">PyGame app</tspan><tspan
          sodipodi:role="line"
          style="font-size:2.17658px;fill:#355d71;fill-opacity:1;stroke-width:0.204054"
-         x="51.096249"
-         y="100.16047"
+         x="62.084732"
+         y="67.690834"
          id="tspan16553">whith OpenGL</tspan><tspan
          sodipodi:role="line"
          style="font-size:2.17658px;fill:#355d71;fill-opacity:1;stroke-width:0.204054"
-         x="51.096249"
-         y="102.8812"
+         x="62.084732"
+         y="70.41156"
          id="tspan16555">context</tspan></text>
     <ellipse
        style="fill:none;stroke:#355d71;stroke-width:0.771228;stroke-opacity:1"
        id="ellipse20633"
-       cx="110.53917"
-       cy="98.080376"
+       cx="69.492264"
+       cy="108.55593"
        rx="10.186175"
        ry="11.10381" />
     <text
        xml:space="preserve"
        style="font-size:2.72072px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;fill:#355d71;fill-opacity:1;stroke-width:0.204054"
-       x="104.54587"
-       y="95.291206"
+       x="63.498959"
+       y="105.76676"
        id="text20637"><tspan
          sodipodi:role="line"
          id="tspan20635"
          style="fill:#355d71;fill-opacity:1;stroke-width:0.204054"
-         x="104.54587"
-         y="95.291206">Renderer</tspan></text>
+         x="63.498959"
+         y="105.76676">Renderer</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:2.17658px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;fill:#355d71;fill-opacity:1;stroke-width:0.204054"
-       x="106.06628"
-       y="99.742912"
+       x="65.019371"
+       y="110.21848"
        id="text20645"><tspan
          sodipodi:role="line"
          style="font-size:2.17658px;fill:#355d71;fill-opacity:1;stroke-width:0.204054"
-         x="106.06628"
-         y="99.742912"
+         x="65.019371"
+         y="110.21848"
          id="tspan20641">OpenGL </tspan><tspan
          sodipodi:role="line"
          style="font-size:2.17658px;fill:#355d71;fill-opacity:1;stroke-width:0.204054"
-         x="106.06628"
-         y="102.46364"
+         x="65.019371"
+         y="112.9392"
          id="tspan22003">pipeline</tspan><tspan
          sodipodi:role="line"
          style="font-size:2.17658px;fill:#355d71;fill-opacity:1;stroke-width:0.204054"
-         x="106.06628"
-         y="105.18436"
+         x="65.019371"
+         y="115.65993"
          id="tspan20643" /></text>
     <ellipse
-       style="fill:none;fill-opacity:1;stroke:#355d71;stroke-width:0.28892501;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       style="fill:none;fill-opacity:1;stroke:#355d71;stroke-width:0.288925;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="ellipse23432"
-       cx="69.014938"
-       cy="93.485985"
+       cx="69.741577"
+       cy="77.092316"
        rx="1.0200022"
        ry="1.1118904" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#355d71;stroke-width:0.204054px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#TriangleInL)"
-       d="M 70.029713,93.598263 100.4052,96.959117"
+       d="M 69.732767,78.204147 69.580244,97.452709"
        id="path24336"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0"
@@ -391,24 +390,24 @@
     <ellipse
        style="fill:none;stroke:#355d71;stroke-width:0.771228;stroke-opacity:1"
        id="ellipse26024"
-       cx="111.0982"
-       cy="60.092327"
+       cx="114.27679"
+       cy="34.702553"
        rx="10.186175"
        ry="11.10381" />
     <text
        xml:space="preserve"
        style="font-size:2.72072px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;fill:#355d71;fill-opacity:1;stroke-width:0.204054"
-       x="107.71533"
-       y="61.858799"
+       x="110.89392"
+       y="36.469025"
        id="text26028"><tspan
          sodipodi:role="line"
          id="tspan26026"
          style="fill:#355d71;fill-opacity:1;stroke-width:0.204054"
-         x="107.71533"
-         y="61.858799">Scene</tspan></text>
+         x="110.89392"
+         y="36.469025">Scene</tspan></text>
     <path
        style="display:inline;fill:none;fill-rule:evenodd;stroke:#355d71;stroke-width:0.204054px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#TriangleInL)"
-       d="M 99.173341,62.40154 69.641385,61.891689"
+       d="M 102.35189,37.014072 78.761332,36.660158"
        id="path27798"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0"
@@ -416,41 +415,41 @@
        inkscape:connection-start="#ellipse28110" />
     <path
        style="display:inline;fill:none;fill-rule:evenodd;stroke:#355d71;stroke-width:0.204054px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#TriangleInL)"
-       d="M 68.561639,89.79644 102.52121,66.081809"
+       d="M 79.566408,57.35542 105.5372,40.406229"
        id="path27902"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0"
        inkscape:connection-end="#ellipse26024"
        inkscape:connection-start="#ellipse28006" />
     <ellipse
-       style="fill:none;fill-opacity:1;stroke:#355d71;stroke-width:0.28892501;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       style="fill:none;fill-opacity:1;stroke:#355d71;stroke-width:0.288925;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="ellipse28006"
-       cx="67.702774"
-       cy="90.396202"
+       cx="78.691261"
+       cy="57.926563"
        rx="1.0200022"
        ry="1.1118904" />
     <ellipse
-       style="fill:none;fill-opacity:1;stroke:#355d71;stroke-width:0.28892501;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       style="fill:none;fill-opacity:1;stroke:#355d71;stroke-width:0.288925;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="ellipse28110"
-       cx="100.1932"
-       cy="62.419147"
+       cx="103.37179"
+       cy="37.029373"
        rx="1.0200022"
        ry="1.1118904" />
     <text
        xml:space="preserve"
        style="font-size:2.9928px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;fill:#355d71;fill-opacity:1;stroke-width:0.204054"
-       x="51.910007"
-       y="63.320381"
+       x="61.029602"
+       y="38.112103"
        id="text33891"><tspan
          sodipodi:role="line"
          style="font-size:2.9928px;fill:#355d71;fill-opacity:1;stroke-width:0.204054"
-         x="51.910007"
-         y="63.320381"
+         x="61.029602"
+         y="38.112103"
          id="tspan33889">hierarchy </tspan><tspan
          sodipodi:role="line"
          style="font-size:2.9928px;fill:#355d71;fill-opacity:1;stroke-width:0.204054"
-         x="51.910007"
-         y="67.061378"
+         x="61.029602"
+         y="41.8531"
          id="tspan40004"> system</tspan></text>
     <ellipse
        style="fill:none;stroke:#355d71;stroke-width:0.771228;stroke-opacity:1"
@@ -472,7 +471,7 @@
          y="66.272507">Mesh</tspan></text>
     <path
        style="display:inline;fill:none;fill-rule:evenodd;stroke:#355d71;stroke-width:0.204054px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#TriangleInL)"
-       d="M 27.058774,65.018201 49.112958,62.762297"
+       d="M 26.910685,64.537134 59.488143,42.568895"
        id="path48401"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0"
@@ -573,7 +572,7 @@
          y="38.964176">Camera</tspan></text>
     <path
        style="display:inline;fill:none;fill-rule:evenodd;stroke:#355d71;stroke-width:0.204054px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#TriangleInL)"
-       d="M 28.428654,38.121141 50.650535,55.071228"
+       d="M 28.612685,37.459301 58.198384,36.751764"
        id="path955"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0"
@@ -586,5 +585,49 @@
        cy="37.483688"
        rx="1.0200022"
        ry="1.1118904" />
+    <ellipse
+       style="fill:none;stroke:#355d71;stroke-width:0.771228;stroke-opacity:1"
+       id="ellipse1034"
+       cx="114.21441"
+       cy="108.75687"
+       rx="10.186175"
+       ry="11.10381" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;fill:#355d71;fill-opacity:1;stroke-width:0.204054"
+       x="105.2468"
+       y="108.24177"
+       id="text1038"><tspan
+         sodipodi:role="line"
+         id="tspan1036"
+         style="font-size:3.175px;fill:#355d71;fill-opacity:1;stroke-width:0.204054"
+         x="105.2468"
+         y="108.24177">UniformList</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.52778px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;fill:#355d71;fill-opacity:1;stroke-width:0.204054"
+       x="107.16833"
+       y="112.30899"
+       id="text1046"><tspan
+         sodipodi:role="line"
+         style="font-size:3.52778px;fill:#355d71;fill-opacity:1;stroke-width:0.204054"
+         x="107.16833"
+         y="112.30899"
+         id="tspan1044">Uniform</tspan></text>
+    <ellipse
+       style="fill:none;fill-opacity:1;stroke:#355d71;stroke-width:0.288925;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="ellipse12677"
+       cx="103.02496"
+       cy="108.86606"
+       rx="1.0200022"
+       ry="1.1118904" />
+    <path
+       style="display:inline;fill:none;fill-rule:evenodd;stroke:#355d71;stroke-width:0.204054px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#TriangleInL)"
+       d="m 102.00501,108.85663 -22.327101,-0.2065"
+       id="path12679"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#ellipse12677"
+       inkscape:connection-end="#ellipse20633" />
   </g>
 </svg>
